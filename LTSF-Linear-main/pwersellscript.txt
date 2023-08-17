@@ -1,0 +1,1 @@
+python -u run_longExp.py --is_training 1 --root_path ./data/wind_power/  --num_workers 0  --data_path Turbine_Data.csv   --model_id Turbine_Data_336_96  --model Linear  --data custom  --features MS  --seq_len 336  --pred_len 96  --target ActivePower  --enc_in 6   --des 'Exp'   --train_epochs 10  --itr 1 --batch_size 64  --learning_rate 0.005 --individual

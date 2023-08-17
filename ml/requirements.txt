@@ -1,0 +1,7 @@
+numpy
+pandas==1.5.1
+pymysql
+apscheduler
+scikit-learn
+requests
+xgboost
